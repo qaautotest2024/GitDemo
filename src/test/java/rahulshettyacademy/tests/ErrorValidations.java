@@ -22,8 +22,7 @@ public class ErrorValidations extends BaseTest{
 	String productName ="ZARA COAT 3";
 	LandingPage landingPage = new LandingPage(driver);
 	ProductCatalogue productCatalogue =landingPage.loginApplication("shetty@gmail.com", "Iamking@000");
-	Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
-	System.out.println("Automation7676");
+	Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());	
 	System.out.println("2024 new upgrade");
 
 }
